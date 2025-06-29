@@ -1,0 +1,12 @@
+prefix=c:/Users/chakr/Desktop/LangGraph/venv/Library
+exec_prefix=c:/Users/chakr/Desktop/LangGraph/venv/Library
+libdir=c:/Users/chakr/Desktop/LangGraph/venv/Library/lib
+includedir=c:/Users/chakr/Desktop/LangGraph/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
