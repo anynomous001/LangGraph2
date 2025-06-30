@@ -5,3 +5,6 @@ langgraph
 langgraph
 langchain-groq
 python-dotenv
+arxiv
+wikipedia
+langchain-tavily
