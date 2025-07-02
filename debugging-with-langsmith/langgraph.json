@@ -1,0 +1,7 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+        "ReAct-Agent": "./ReAct-Agent.py:agent"
+    },
+    "env": "../.env"
+}
