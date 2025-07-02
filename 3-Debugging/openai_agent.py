@@ -14,9 +14,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-os.environ["OPENAI_API_KEY"]=os.getenv("OPENAI_API_KEY")
+# os.environ["OPENAI_API_KEY"]=os.getenv("OPENAI_API_KEY")
 
-os.environ["LANGSMITH_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
+os.environ["LANGSMITH_API_KEY"]=os.getenv("LANGSMITH_API_KEY")
 
 
 class State(TypedDict):

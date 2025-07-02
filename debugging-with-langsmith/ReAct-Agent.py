@@ -68,7 +68,8 @@ def make_graph():
             return f"Error fetching weather: {e}"
 
     # Initialize tools
-    tavily = TavilySearchResults()
+    # @tool
+    # tavily = TavilySearchResults()
     
  
     arxiv_api_wrapper = ArxivAPIWrapper(top_k_results=3, doc_content_chars_max=600)
