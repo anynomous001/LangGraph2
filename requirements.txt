@@ -13,3 +13,4 @@ langgraph-cli[inmem]
 faiss-cpu
 pydantic
 langchain-google-genai
+mcp
