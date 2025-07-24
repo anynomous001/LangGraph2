@@ -2,7 +2,6 @@ langchain
 langchain-core
 langchain-community
 langgraph
-langgraph
 langchain-groq
 python-dotenv
 arxiv
@@ -14,3 +13,7 @@ faiss-cpu
 pydantic
 langchain-google-genai
 mcp
+langchain-mcp-adapters
+aiohttp
+PyPDF2
+fastmcp
